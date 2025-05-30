@@ -5,8 +5,6 @@ import { validateSchema } from '../middlewares/validator.middleware.js';
 import { registerSchema, loginSchema } from '../schemas/auth.schema.js';
 import { createAdminUsers } from '../controllers/auth.controller.js';
 import routerAdmin from './admin.js';
-import routerPedido from './pedidos.js';
-import menuRouter from '../controllers/menurouter.js';
 
 
 const router = Router();
@@ -20,8 +18,6 @@ router.get('/profile', authRequired, profile);
 
 router.use('/admin-page', authRequired, isAdmin, routerAdmin);
 router.post('/create-admin-users', createAdminUsers);
-router.use(menuRouter);
 
-router.use('/pedidos', authRequired, routerPedido);
 
 export default router;
