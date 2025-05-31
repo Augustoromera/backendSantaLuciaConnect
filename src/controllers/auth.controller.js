@@ -14,7 +14,7 @@ export const register = async (req, res) => {
 
         const passwordHash = await bcrypt.hash(password, 10);
 
-        const adminEmails = ['paulo101@gmail.com', 'augusto101@gmail.com', 'nico101@gmail.com', 'santiago101@gmail.com'];
+        const adminEmails = ['marcos101@gmail.com', 'augusto101@gmail.com', 'emilse101@gmail.com', 'fernando101@gmail.com'];
 
         const newUser = new User({
             username,
