@@ -63,3 +63,21 @@ export const getRutas = async (req, res) => {
         res.status(500).json({ message: 'Error al obtener rutas', error });
     }
 };
+
+
+export const getHorarios = async (req, res) => {
+    try {
+        const { id_ruta, id_parada } = req.query;
+        
+        const parada = await Parada.findOne({_id: id_parada, id_ruta });
+        if (!parada) {
+            return res.status(404).json({ message: 'Parada no encontrada' });
+        }
+
+        const horarios = await Horario.find({id_parada: parada._id});
+
+        res.json(horarios);
+    } catch (error) {
+        res.status(500).json({ message: 'Error al obtener horarios', error });
+    }
+};

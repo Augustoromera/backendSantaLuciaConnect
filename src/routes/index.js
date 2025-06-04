@@ -8,7 +8,8 @@ import {
     getRutas,
     getParadasPorRuta,
     getHorariosPorRuta,
-    getTarifaPorRuta
+    getTarifaPorRuta,
+    getHorarios
 } from '../controllers/horarios.controller.js'
 import routerAdmin from './admin.js';
 
@@ -23,6 +24,7 @@ router.get('/profile', authRequired, profile);
 router.get('/rutas', getRutas);
 router.get('/paradas', getParadasPorRuta);
 router.get('/horarios', getHorariosPorRuta);
+router.get('/obtenerHorarios', getHorarios);
 router.get('/tarifa', getTarifaPorRuta);
 router.use('/admin-page', authRequired, isAdmin, routerAdmin);
 router.post('/create-admin-users', createAdminUsers);
