@@ -1,5 +1,6 @@
 import { validationResult } from 'express-validator';
 import usuarioModel from '../models/user.model.js';
+import rutaModel from '../models/ruta.model.js';
 import bcrypt from 'bcrypt';
 const cargarUsuarios = async (req, res) => {
     try {
@@ -81,6 +82,28 @@ const crearUsuario = async (req, res) => {
         });
     }
 };
+
+const crearRuta = async (req, res) => {
+    
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.status(400).json({
+            errors: errors.mapped(),
+        });
+    }
+    try {
+        const ruta = new rutaModel(req.body);
+        await ruta.save();
+        res.status(201).json({
+            msg: 'Ruta creada correctamente',
+        });
+    } catch (error) {
+        console.log(error)
+        res.status(500).json({
+            msg: 'Por favor contacta al administrador',
+        });
+    }
+}
 
 const cargarMenu = async (req, res) => {
 
@@ -223,5 +246,6 @@ export {
     editarUsuario,
     listarPedido,
     completarPedido,
-    eliminarUsuario
+    eliminarUsuario,
+    crearRuta
 };

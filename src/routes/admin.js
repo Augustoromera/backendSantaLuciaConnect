@@ -11,7 +11,8 @@ import {
     editarUsuario,
     listarPedido,
     completarPedido,
-    eliminarUsuario
+    eliminarUsuario,
+    crearRuta
 } from '../controllers/admin.controllers.js';
 
 const routerAdmin = express.Router();
@@ -21,6 +22,7 @@ routerAdmin.post('/nuevoUsuario', crearUsuario);
 routerAdmin.put('/inactivarUsuario', inactivarUsuario);
 routerAdmin.put('/editarUsuario', editarUsuario);
 routerAdmin.delete('/eliminarUsuario/:id', eliminarUsuario);
+routerAdmin.post('/nuevaRuta', crearRuta);
 
 
 export default routerAdmin;

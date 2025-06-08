@@ -1,6 +1,7 @@
 import express from 'express';
 import morgan from 'morgan';
 import router from './src/routes/index.js';
+import routerAdmin from './src/routes/admin.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 import { connectDB } from './src/models/db.js';
@@ -23,6 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use("/api", router);
+app.use('/admin', routerAdmin);
 
 connectDB();
 
