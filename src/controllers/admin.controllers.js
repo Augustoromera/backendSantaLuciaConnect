@@ -1,6 +1,8 @@
 import { validationResult } from 'express-validator';
 import usuarioModel from '../models/user.model.js';
 import rutaModel from '../models/ruta.model.js';
+import paradaModel from '../models/parada.model.js';
+import horarioModel from '../models/horario.model.js';
 import bcrypt from 'bcrypt';
 const cargarUsuarios = async (req, res) => {
     try {
@@ -84,7 +86,7 @@ const crearUsuario = async (req, res) => {
 };
 
 const crearRuta = async (req, res) => {
-    
+
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(400).json({
@@ -96,6 +98,48 @@ const crearRuta = async (req, res) => {
         await ruta.save();
         res.status(201).json({
             msg: 'Ruta creada correctamente',
+        });
+    } catch (error) {
+        console.log(error)
+        res.status(500).json({
+            msg: 'Por favor contacta al administrador',
+        });
+    }
+}
+
+const crearParada = async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.status(400).json({
+            errors: errors.mapped(),
+        });
+    }
+    try {
+        const parada = new paradaModel(req.body);
+        await parada.save();
+        res.status(201).json({
+            msg: 'Parada creada correctamente',
+        });
+    } catch (error) {
+        console.log(error)
+        res.status(500).json({
+            msg: 'Por favor contacta al administrador',
+        });
+    }
+}
+
+const crearHorario = async (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+        return res.status(400).json({
+            errors: errors.mapped(),
+        });
+    }
+    try {
+        const horario = new horarioModel(req.body);
+        await horario.save();
+        res.status(201).json({
+            msg: 'Horario creado correctamente',
         });
     } catch (error) {
         console.log(error)
@@ -247,5 +291,7 @@ export {
     listarPedido,
     completarPedido,
     eliminarUsuario,
-    crearRuta
+    crearRuta,
+    crearParada,
+    crearHorario
 };

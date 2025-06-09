@@ -12,7 +12,9 @@ import {
     listarPedido,
     completarPedido,
     eliminarUsuario,
-    crearRuta
+    crearRuta,
+    crearParada,
+    crearHorario
 } from '../controllers/admin.controllers.js';
 
 const routerAdmin = express.Router();
@@ -23,6 +25,8 @@ routerAdmin.put('/inactivarUsuario', inactivarUsuario);
 routerAdmin.put('/editarUsuario', editarUsuario);
 routerAdmin.delete('/eliminarUsuario/:id', eliminarUsuario);
 routerAdmin.post('/nuevaRuta', crearRuta);
+routerAdmin.post('/nuevaParada', crearParada);
+routerAdmin.post('/nuevoHorario', crearHorario);
 
 
 export default routerAdmin;
