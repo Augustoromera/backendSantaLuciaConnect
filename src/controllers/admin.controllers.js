@@ -279,6 +279,26 @@ const eliminarUsuario = async (req, res) => {
     }
 };
 
+const eliminarParada = async (req, res) => {
+    try {
+        const paradaEliminar = await paradaModel.findById(req.params.id);
+        if (!paradaEliminar) {
+            return res.status(404).json({
+                ok: false,
+                msg: 'No existe ninguna parada con este id',
+            });
+        }
+        await paradaModel.findByIdAndDelete(req.params.id);
+        res.status(200).json({
+            msg: 'Parada eliminado correctamente',
+        });
+    } catch (error) {
+        res.status(500).json({
+            msg: 'Por favor contacta al administrador',
+        });
+    }
+}
+
 export {
     cargarUsuarios,
     crearMenu,
@@ -293,5 +313,6 @@ export {
     eliminarUsuario,
     crearRuta,
     crearParada,
-    crearHorario
+    crearHorario,
+    eliminarParada
 };

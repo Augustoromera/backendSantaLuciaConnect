@@ -14,7 +14,8 @@ import {
     eliminarUsuario,
     crearRuta,
     crearParada,
-    crearHorario
+    crearHorario,
+    eliminarParada
 } from '../controllers/admin.controllers.js';
 
 const routerAdmin = express.Router();
@@ -27,6 +28,7 @@ routerAdmin.delete('/eliminarUsuario/:id', eliminarUsuario);
 routerAdmin.post('/nuevaRuta', crearRuta);
 routerAdmin.post('/nuevaParada', crearParada);
 routerAdmin.post('/nuevoHorario', crearHorario);
+routerAdmin.delete('/eliminarParada/:id', eliminarParada);
 
 
 export default routerAdmin;
