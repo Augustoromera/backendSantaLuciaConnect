@@ -12,12 +12,12 @@ dotenv.config();
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:5173',
-  origin: 'https://transportesantalucia.netlify.app',
+  origin: ['http://localhost:5173', 'https://transportesantalucia.netlify.app'],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
-  optionsSuccessStatus: 240,
+  optionsSuccessStatus: 204,
 };
+
 
 app.use(cors(corsOptions));
 app.use(morgan("dev"));
