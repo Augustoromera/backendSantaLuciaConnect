@@ -1,0 +1,93 @@
+import mongoose from 'mongoose';
+import Ruta from './src/models/ruta.model.js';
+import Tarifa from './src/models/tarifa.model.js';
+
+await mongoose.connect('mongodb+srv://augusto:wallaby42@proyectoweb.e2tzutv.mongodb.net/santaluciaconnect?retryWrites=true&w=majority');
+
+// Asignar el ID de la ruta existente
+const rutaId = '6841ae01c11032698b6ade09';
+
+// Verificar si la ruta existe (opcional, pero recomendado)
+const ruta = await Ruta.findById(rutaId);
+if (!ruta) {
+    console.error('La ruta con el ID especificado no existe.');
+    process.exit(1); // Salir del script si la ruta no existe
+}
+
+// Tarifas progresivas desde Monteros
+const tarifasMonteros = [
+    { destino: 'CITROMAX', precio: 790.00 },
+    { destino: 'CERVECERIA', precio: 790.00 },
+    { destino: 'ACHERAL', precio: 920.00 },
+    { destino: 'KM 3', precio: 1510.00 },
+    { destino: 'LA CIENAGA', precio: 1510.00 },
+    { destino: 'FAGALDE', precio: 1510.00 },
+    { destino: 'SANTA LUCIA', precio: 1510.00 },
+    { destino: 'LOS SOSA', precio: 920.00 },
+    { destino: 'MALDONADO', precio: 920.00 },
+    { destino: 'EL CERCADO', precio: 920.00 },
+    { destino: 'CAPITAN CASERES', precio: 1510.00 }
+];
+
+// Insertar las tarifas relacionadas a la ruta existente
+for (let t of tarifasMonteros) {
+    await Tarifa.create({
+        id_ruta: rutaId, // Usar el ID de la ruta existente
+        tipoOrigen: 'SANTA LUCIA',
+        destino: t.destino,
+        precio: t.precio
+    });
+}
+
+console.log('Datos insertados correctamente: Ruta Monteros - Santa Lucia');
+process.exit();
+
+
+
+
+
+
+
+
+
+
+
+import mongoose from 'mongoose';
+import Ruta from './src/models/ruta.model.js';
+import Tarifa from './src/models/tarifa.model.js';
+
+await mongoose.connect('mongodb+srv://augusto:wallaby42@proyectoweb.e2tzutv.mongodb.net/santaluciaconnect?retryWrites=true&w=majority');
+
+// Asignar el ID de la ruta existente
+const rutaId = '6841ae01c11032698b6ade09';
+
+// Verificar si la ruta existe (opcional, pero recomendado)
+const ruta = await Ruta.findById(rutaId);
+if (!ruta) {
+    console.error('La ruta con el ID especificado no existe.');
+    process.exit(1); // Salir del script si la ruta no existe
+}
+
+// Tarifas progresivas desde Monteros
+const tarifasSantaLucia = [
+    { destino: 'FAGALDE', precio: 790.00 },
+    { destino: 'LA CIENAGA', precio: 790.00 },
+    { destino: 'KM 3', precio: 790.00 },
+    { destino: 'ACHERAL', precio: 920.00 },
+    { destino: 'CERVECERIA', precio: 1510.00 },
+    { destino: 'CITROMAX', precio: 1510.00 },
+    { destino: 'MONTEROS', precio: 1510.00 }
+];
+// Insertar las tarifas relacionadas a la ruta existente
+for (let t of tarifasSantaLucia) {
+    await Tarifa.create({
+        id_ruta: rutaId, // Usar el ID de la ruta existente
+        tipoOrigen: 'SANTA LUCIA',
+        destino: t.destino,
+        precio: t.precio
+    });
+}
+
+console.log('Datos insertados correctamente: Ruta Monteros - Santa Lucia');
+process.exit();
+

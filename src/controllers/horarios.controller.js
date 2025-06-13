@@ -43,16 +43,23 @@ export const getHorariosPorRuta = async (req, res) => {
 // Obtener tarifa entre paradas
 export const getTarifaPorRuta = async (req, res) => {
     try {
-        const { id_ruta, origen, destino } = req.query;
-        const tarifa = await Tarifa.findOne({ id_ruta, tipoOrigen: origen, destino });
+        const { id_ruta, tipoOrigen, destino } = req.query;
+
+        console.log('Tarifa: buscando con:', { id_ruta, tipoOrigen, destino });
+
+        const tarifa = await Tarifa.findOne({ id_ruta, tipoOrigen, destino });
+
         if (!tarifa) {
             return res.status(404).json({ message: 'Tarifa no encontrada' });
         }
+
         res.json(tarifa);
     } catch (error) {
+        console.error('Error al obtener tarifa:', error);
         res.status(500).json({ message: 'Error al obtener tarifa', error });
     }
 };
+
 
 // Obtener rutas disponibles
 export const getRutas = async (req, res) => {

@@ -1,0 +1,1146 @@
+[
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "6:30",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "6:32",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "6:34",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "6:38",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "6:45",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "6:50",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "6:53",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "7:55",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "6:57",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "6:58",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "7:00",
+    "tipo_dia": "habil",
+    "nro_orden": 2,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "7:00",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "7:02",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "7:04",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "7:06",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "7:15",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "7:20",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "7:23",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "7:25",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "7:27",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "7:28",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "7:30",
+    "tipo_dia": "habil",
+    "nro_orden": 3,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "7:30",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "7:32",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "7:34",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "7:36",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "7:45",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "7:50",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "7:53",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "7:55",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "7:57",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "7:58",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "8:00",
+    "tipo_dia": "habil",
+    "nro_orden": 4,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "8:00",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "8:02",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "8:04",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "8:06",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "8:15",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "8:20",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "8:23",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "8:25",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "8:27",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "8:28",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "8:30",
+    "tipo_dia": "habil",
+    "nro_orden": 5,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "9:00",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "9:02",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "9:04",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "9:06",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "9:15",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "9:20",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "9:23",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "9:25",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "9:27",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "9:28",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "9:30",
+    "tipo_dia": "habil",
+    "nro_orden": 6,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "10:00",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "10:02",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "10:04",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "10:06",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "10:15",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "10:20",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "10:23",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "10:25",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "10:27",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "10:28",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "10:30",
+    "tipo_dia": "habil",
+    "nro_orden": 7,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "11:00",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "11:02",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "11:04",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "11:06",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "11:15",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "11:20",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "11:23",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "11:25",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "11:27",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "11:28",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "11:30",
+    "tipo_dia": "habil",
+    "nro_orden": 8,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "12:00",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "12:02",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "12:04",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "12:06",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "12:15",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "12:20",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "12:23",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "12:25",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "12:27",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "12:28",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "12:30",
+    "tipo_dia": "habil",
+    "nro_orden": 10,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "12:15",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "12:17",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "12:19",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "12:21",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "12:30",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "12:35",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "12:38",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "12:41",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "12:43",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "12:44",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "12:45",
+    "tipo_dia": "habil",
+    "nro_orden": 11,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "12:30",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "12:32",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "12:34",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "12:36",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "12:45",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "12:50",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "12:53",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "12:55",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "12:57",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "12:58",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "13:00",
+    "tipo_dia": "habil",
+    "nro_orden": 12,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "13:00",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "13:02",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "13:04",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "13:06",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "13:15",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "13:20",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "13:23",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "13:25",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "13:27",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "13:28",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "13:30",
+    "tipo_dia": "habil",
+    "nro_orden": 13,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "14:00",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "14:02",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "14:04",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "14:06",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "14:15",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "14:20",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "14:23",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "14:25",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "14:27",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "14:28",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "14:30",
+    "tipo_dia": "habil",
+    "nro_orden": 15,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade15",
+    "horario": "15:00",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade14",
+    "horario": "15:02",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade13",
+    "horario": "15:04",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade12",
+    "horario": "15:06",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade11",
+    "horario": "15:15",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade10",
+    "horario": "15:20",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0f",
+    "horario": "15:23",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0e",
+    "horario": "15:25",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0d",
+    "horario": "15:27",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0c",
+    "horario": "15:28",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  },
+  {
+    "id_ruta": "6841af28447dea60cc03a67d",
+    "id_parada": "6841ae01c11032698b6ade0b",
+    "horario": "15:30",
+    "tipo_dia": "habil",
+    "nro_orden": 16,
+    "turno": "mañana"
+  }
+]
