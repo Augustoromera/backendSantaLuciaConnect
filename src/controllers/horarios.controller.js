@@ -88,3 +88,23 @@ export const getHorarios = async (req, res) => {
         res.status(500).json({ message: 'Error al obtener horarios', error });
     }
 };
+
+export const editarHorario = async (req, res) => {
+    try {
+        const { horarios } = req.body;
+
+        for (const horario of horarios) {
+            await Horario.findByIdAndUpdate(horario._id, { horario: horario.horario });
+        }
+
+        res.status(200).json({
+            ok: true,
+            msg: "Horarios actualizados correctamente",
+        });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            msg: "Por favor contactate con el administrador",
+        });
+    }
+};

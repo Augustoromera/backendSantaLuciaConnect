@@ -17,6 +17,7 @@ import {
     crearHorario,
     eliminarParada
 } from '../controllers/admin.controllers.js';
+import { editarHorario } from '../controllers/horarios.controller.js';
 
 const routerAdmin = express.Router();
 
@@ -29,6 +30,7 @@ routerAdmin.post('/nuevaRuta', crearRuta);
 routerAdmin.post('/nuevaParada', crearParada);
 routerAdmin.post('/nuevoHorario', crearHorario);
 routerAdmin.delete('/eliminarParada/:id', eliminarParada);
+routerAdmin.put('/editarHorario', editarHorario);
 
 
 export default routerAdmin;
