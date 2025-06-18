@@ -113,7 +113,7 @@ export const editarParada = async (req, res) => {
     try {
         const parada = req.body;
 
-        await Parada.findByIdAndUpdate(parada._id);
+        await Parada.findByIdAndUpdate(req.body._id, req.body);
         res.status(200).json({
             ok: true,
             msg: "Parada editada correctamente",
