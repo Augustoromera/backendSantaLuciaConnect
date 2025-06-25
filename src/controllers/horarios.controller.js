@@ -83,6 +83,8 @@ export const getHorarios = async (req, res) => {
 
         const horarios = await Horario.find({ id_parada: parada._id });
 
+        horarios.sort((a, b) => a.horario.localeCompare(b.horario));
+
         res.json(horarios);
     } catch (error) {
         res.status(500).json({ message: 'Error al obtener horarios', error });
