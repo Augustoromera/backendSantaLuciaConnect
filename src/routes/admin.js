@@ -17,14 +17,14 @@ import {
     crearHorario,
     eliminarParada
 } from '../controllers/admin.controllers.js';
-import { editarHorario, editarParada } from '../controllers/horarios.controller.js';
+import { editarHorario, editarParada, eliminarHorario } from '../controllers/horarios.controller.js';
 
 const routerAdmin = express.Router();
 
 routerAdmin.get('/listarUsuarios', cargarUsuarios);
 routerAdmin.post('/nuevoUsuario', crearUsuario);
 routerAdmin.put('/inactivarUsuario', inactivarUsuario);
-routerAdmin.put('/editarUsuario', editarUsuario);
+routerAdmin.put('/editarUsuario', editarUsuario); 
 routerAdmin.delete('/eliminarUsuario/:id', eliminarUsuario);
 routerAdmin.post('/nuevaRuta', crearRuta);
 routerAdmin.post('/nuevaParada', crearParada);
@@ -32,6 +32,7 @@ routerAdmin.post('/nuevoHorario', crearHorario);
 routerAdmin.delete('/eliminarParada/:id', eliminarParada);
 routerAdmin.put('/editarHorario', editarHorario);
 routerAdmin.put('/editarParada', editarParada);
+routerAdmin.delete('/eliminarHorario/:id', eliminarHorario);
 
 
 export default routerAdmin;

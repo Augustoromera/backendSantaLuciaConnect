@@ -127,3 +127,28 @@ export const editarParada = async (req, res) => {
         });
     }
 }
+
+export const eliminarHorario = async (req, res) => {
+    try {
+        
+        const horarioEliminar = await Horario.findById(req.params.id);
+        if(!horarioEliminar){
+            return res.status(404).json({
+                ok: false,
+                msg: "No existe ningun horario con ese ID"
+            })
+        }
+
+        await Horario.findByIdAndDelete(req.params.id);
+        res.status(200).json({
+            ok: true,
+            msg: "Horario eliminado correctamente"
+        })
+        
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: "Por favor contactate con el administrador",
+        });
+    }
+}
