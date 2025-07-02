@@ -81,11 +81,12 @@ export const getHorarios = async (req, res) => {
             return res.status(404).json({ message: 'Parada no encontrada' });
         }
 
-        const horarios = await Horario.find({ id_parada: parada._id });
+        const horarios = await Horario.find({ id_parada: parada._id});
+        const horarioFiltrado = horarios.filter(h => h.shown === true)
+        horarioFiltrado.sort((a, b) => a.horario.localeCompare(b.horario));
+        const allHorarios = horarios.sort((a,b) => a.horario.localeCompare(b.horario));
 
-        horarios.sort((a, b) => a.horario.localeCompare(b.horario));
-
-        res.json(horarios);
+        res.json({allHorarios, horarioFiltrado});
     } catch (error) {
         res.status(500).json({ message: 'Error al obtener horarios', error });
     }
