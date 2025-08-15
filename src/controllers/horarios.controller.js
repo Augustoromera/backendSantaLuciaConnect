@@ -97,7 +97,7 @@ export const editarHorario = async (req, res) => {
         const { horarios } = req.body;
 
         for (const horario of horarios) {
-            await Horario.findByIdAndUpdate(horario._id, { horario: horario.horario });
+            await Horario.findByIdAndUpdate(horario._id, { horario: horario.horario, shown: horario.shown });
         }
 
         res.status(200).json({
