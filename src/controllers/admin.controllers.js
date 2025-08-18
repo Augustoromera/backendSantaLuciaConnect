@@ -3,6 +3,7 @@ import usuarioModel from '../models/user.model.js';
 import rutaModel from '../models/ruta.model.js';
 import paradaModel from '../models/parada.model.js';
 import horarioModel from '../models/horario.model.js';
+import mensajeContacto from '../models/contacto.model.js';
 import bcrypt from 'bcrypt';
 const cargarUsuarios = async (req, res) => {
     try {
@@ -299,6 +300,33 @@ const eliminarParada = async (req, res) => {
     }
 }
 
+const registrarContacto = async (req, res) => {
+    try {
+        const { nombre, apellido, email, telefono, asunto, mensaje } = req.body;
+
+        const user = await usuarioModel.findOne({ email });
+
+        const registro = new mensajeContacto({
+            nombre,
+            apellido,
+            email,
+            telefono,
+            asunto,
+            mensaje,
+            userId: user ? user._id : null
+        });
+
+        await registro.save();
+        res.status(200).json({
+            msg: "Mensaje enviado correctamente"
+        })
+    } catch (error) {
+        res.status(500).json({
+            msg: "Error al enviar el mensaje"
+        })
+    }
+}
+
 export {
     cargarUsuarios,
     crearMenu,
@@ -314,5 +342,6 @@ export {
     crearRuta,
     crearParada,
     crearHorario,
-    eliminarParada
+    eliminarParada,
+    registrarContacto
 };
