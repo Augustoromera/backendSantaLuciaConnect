@@ -1,16 +1,9 @@
 import express from 'express';
-import { check } from 'express-validator';
 import {
     cargarUsuarios,
-    cargarMenu,
-    crearMenu,
-    editarMenu,
-    eliminarMenu,
     crearUsuario,
     inactivarUsuario,
     editarUsuario,
-    listarPedido,
-    completarPedido,
     eliminarUsuario,
     crearRuta,
     crearParada,
