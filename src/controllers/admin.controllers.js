@@ -217,6 +217,21 @@ const registrarContacto = async (req, res) => {
     }
 }
 
+const cargarMensajes = async (req, res) => {
+    try {
+        const mensajes = await mensajeContacto.find();
+        res.status(200).json({
+            ok: true,
+            mensajes,
+        })
+    } catch (error) {
+        console.log(error);
+        res.status(500).json({
+            msg: 'por favor contactate con el administrador',
+        });
+    }
+}
+
 export {
     cargarUsuarios,
     crearUsuario,
@@ -227,5 +242,6 @@ export {
     crearParada,
     crearHorario,
     eliminarParada,
-    registrarContacto
+    registrarContacto,
+    cargarMensajes
 };

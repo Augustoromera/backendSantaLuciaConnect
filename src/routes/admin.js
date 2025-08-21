@@ -9,7 +9,8 @@ import {
     crearParada,
     crearHorario,
     eliminarParada,
-    registrarContacto
+    registrarContacto,
+    cargarMensajes
 } from '../controllers/admin.controllers.js';
 import { editarHorario, editarParada, eliminarHorario } from '../controllers/horarios.controller.js';
 
@@ -28,6 +29,6 @@ routerAdmin.put('/editarHorario', editarHorario);
 routerAdmin.put('/editarParada', editarParada);
 routerAdmin.delete('/eliminarHorario/:id', eliminarHorario);
 routerAdmin.post('/mensajeContacto', registrarContacto);
-
+routerAdmin.get('/listarMensajes', cargarMensajes);
 
 export default routerAdmin;
